@@ -14,3 +14,6 @@ from classifier import ImageClassifier
 model = ImageClassifier(num_classes=10)
 model.train(train_data, epochs=20)
 ```
+
+## Architecture
+Supports custom CNN layers with configurable kernels and pooling.
